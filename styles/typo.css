@@ -1,0 +1,19 @@
+body {
+  font-family: helvetica;
+}
+
+
+h1 { font-family: 'Space Mono', monospace;
+font-weight: 700;
+font-size: 2em;
+}
+
+p {
+max-width: 500px;
+padding: 17px;
+min-width: 300px;
+text-align: left;
+line-height: 1.2;
+font-weight: normal;
+font-size: 1em;
+}

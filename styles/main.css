@@ -1,0 +1,118 @@
+body{
+  background: lightgrey;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+  display: block;
+  padding: 1em;
+  background-color: yellow;
+  color: red;
+}
+
+ol {
+  display: flex;
+  flex-wrap: wrap;}
+
+  #icone{
+    border: 3px solid red;
+    max-width: 150px;
+    margin: 12px;}
+
+
+li {
+  text-align: center;
+  list-style-type: none;}
+
+  li img {
+    width: 100%}
+
+  video {
+    max-width: 750px;
+    width: 100%    !important;
+    height: auto   !important;
+    }
+
+audio {
+  align-content: center;
+
+}
+
+h1 {
+
+  color: red;
+  text-align: left;
+  padding: 10px;
+  display: inline-block;
+}
+
+
+.media-block {
+  padding: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+#logo {
+width : 200px;
+float: left;
+}
+
+ol {
+  display: flex;
+  flex-wrap: wrap;}
+
+li {
+  /*border: 1px solid #000;*/
+  max-width: 200px;
+  margin: 12px;
+  list-style-type: none;
+  justify-content: space-between;}
+
+li img {
+  width: 100%}
+
+
+#colors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content : center;
+  text-align : center;
+ text-transform: uppercase;
+ font-size: 2em;
+}
+
+#colors li {
+  height : 160px;
+  width : 160px;
+  border-radius: 8px;
+  color : #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#color-1 {
+ background-color: red;
+}
+
+#color-2 {
+ background-color: grey;
+}
+
+#color-3 {
+ background-color: blue;
+}
+
+#color-4 {
+ background-color: green;
+}
+#color-5 {
+ background-color: purple;
+}
+#color-6 {
+ background-color: black;
+}
